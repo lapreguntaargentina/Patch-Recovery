@@ -3,7 +3,7 @@ name: RECOVERY
 on:
   workflow_dispatch:
     inputs:
-      RECOVERY_URL:
+      RECOVERY_URL:https://drive.google.com/file/d/1O7ucm-T3jx3G2S9ayMNzeWOiXkUnMbm6/view?usp=drive_link
         description: 'RECOVERY URL'
         required: true
         default: 'https://transfer.sh/(RECOMMENDED)'
